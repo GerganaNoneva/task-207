@@ -31,7 +31,22 @@ html {
 
 .card-header {
   background-color: $light;
+  padding: 25px 5px 20px 25px ;
 }
 
 .card .content {
+  padding: 30px 25px;
 }
+
+.card{
+  width: 480px;
+}
+
+
+
+/*Implement your changes in the app.scss file which is located in the src/scss folder
+Use the shorthand syntax to set the padding CSS property
+Set the width of the element with class card to be exactly 500 pixels without the border. You are not allowed to modify the given border.
+Set the padding of the element with class card-header to be exactly 25 pixels from the top, 5 pixels from the right, 20 pixels from the bottom, and 25 pixels from left
+Set the padding of the element with class content to be exactly 30 pixels from the top and bottom and 25 pixels from right and left
+*/
